@@ -1,0 +1,140 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.blog-box-bg-1{background-image:url(../img/blog-box-1.jpg) }
+.blog-box-bg-2{background-image:url(../img/blog-box-2.jpg) }
+.blog-box-bg-3{background-image:url(../img/blog-box-3.jpg) }
+
+
+.section-title {
+    color: #565656;
+    font-size: 17px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.section-title h2 {
+    padding-bottom: 20px;
+    position: relative;
+}
+.section-title h2::after {
+    background: #ff9114 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -45px;
+    position: absolute;
+    width: 90px;
+}
+.section-title p {
+    position: relative;
+}
+.section-title p::after {
+    background: #1D282E none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -15px;
+    position: absolute;
+    width: 30px;
+    margin-top:-17px
+}
+
+h2 {
+    font-size: 32px;
+}
+
+section.section-padding {
+    padding: 100px 0;
+}
+.blog-box-bg {
+    background-position: center center;
+    background-size: cover;
+    border: 1px solid #fdaf67;
+    height: 200px;
+}
+.blog-box-bg {
+    border-bottom: 0 solid;
+}
+.blog-box-content {
+    border: 1px solid #f4f4f4;
+    padding: 20px;
+    transition:.3s
+}
+.blog-meta {
+    font-size: 14px;
+}.blog-meta span{
+    margin-right: 10px;
+}
+.blog-meta i.fa {
+    color: #fdaf67;
+}.blog-meta a {
+    color: #565656;
+}
+body {
+    font-size: 17px;
+}
+h1, h2, h3, h4, h5, h6 {
+}
+.blog-box-content h3 {
+    font-size: 20px;
+}
+.blog-box-content h3 {
+    margin-top: 15px;
+}
+.blog-readmore-btn {
+    background: #fd8e2e none repeat scroll 0 0;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 5px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition:.2s
+}
+.blog-readmore-btn:hover {
+}
+.blog-readmore-btn:hover {
+    background: #333 none repeat scroll 0 0;
+    color: #fff;
+}
+.single-blog-box:hover .blog-box-content {
+    border-color: #fd8e2e;
+}
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
